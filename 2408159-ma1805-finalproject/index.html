@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Side-Scroller Game</title>
+    <style>
+        /* CSS Style to remove margins and overflow, and set background image*/
+        body { 
+            margin: 0;
+            overflow: hidden; 
+            background-image: url(oceanbackground.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center; 
+        }
+        /* Style for the canvas element where the game is rendered */
+        canvas { display: block; 
+        }
+    </style>
+</head>
+<body>
+    <!-- The canvas element where the game will be drawn -->
+    <canvas id="gameCanvas"></canvas>
+    <!-- Link to the external JavaScript file -->
+    <script src="game.js"></script>
+</body>
+</html>
+
